@@ -17,7 +17,7 @@ namespace PersonDictionaryModel.Persistence.Configurations
             builder.Property(x => x.PersonalNumber).HasMaxLength(11);
             builder.Property(x => x.Gender);
             builder.Property(x => x.BirthDate);
-            builder.Property(x => x.Photo);
+            builder.Property(x => x.TargetUrl);
 
             builder.HasMany(x => x.PhoneNumbers)
                 .WithOne(x => x.Person);
@@ -38,7 +38,7 @@ namespace PersonDictionaryModel.Persistence.Configurations
                     Gender = Gender.Male,
                     PersonalNumber = "xU7u4nqmeAN",
                     CityId = 1,
-                    Photo = null,
+                    TargetUrl = null,
                 },
                 new Person()
                 {
@@ -49,7 +49,7 @@ namespace PersonDictionaryModel.Persistence.Configurations
                     Gender = Gender.Female,
                     PersonalNumber = "6TZ5UwQw5Rt",
                     CityId = 2,
-                    Photo = null,
+                    TargetUrl = null,
                 },
                 new Person()
                 {
@@ -60,7 +60,7 @@ namespace PersonDictionaryModel.Persistence.Configurations
                     Gender = Gender.Female,
                     PersonalNumber = "cpNb9xJNR8g",
                     CityId = 3,
-                    Photo = null,
+                    TargetUrl = null,
                 });
         }
     }

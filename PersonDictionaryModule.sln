@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDictionaryModel.Core.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDictionaryModel.Core.Model", "PersonDictionaryModel.Core.Model\PersonDictionaryModel.Core.Model.csproj", "{4E9B5496-1B10-47D1-9656-39B1BB780460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDictionaryModel.Resources", "PersonDictionaryModel.Resources\PersonDictionaryModel.Resources.csproj", "{866C24F0-CA5E-417A-B418-8453772E1CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDictionaryModel.Resources", "PersonDictionaryModel.Resources\PersonDictionaryModel.Resources.csproj", "{866C24F0-CA5E-417A-B418-8453772E1CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDictionaryModel.FirebaseStorage", "PersonDictionaryModel.FirebaseStorage\PersonDictionaryModel.FirebaseStorage.csproj", "{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{866C24F0-CA5E-417A-B418-8453772E1CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{866C24F0-CA5E-417A-B418-8453772E1CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{866C24F0-CA5E-417A-B418-8453772E1CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{24027BFC-89D3-4E01-9478-931C8E283586} = {C68EB6F3-F0E5-45E7-B60C-B35FC58BB6FD}
 		{4E9B5496-1B10-47D1-9656-39B1BB780460} = {C68EB6F3-F0E5-45E7-B60C-B35FC58BB6FD}
 		{866C24F0-CA5E-417A-B418-8453772E1CCC} = {CC297A71-2A69-4154-826E-6040819F4684}
+		{41C3F90E-EBD0-4CC8-ABA6-C46D242F1F06} = {CC297A71-2A69-4154-826E-6040819F4684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {041763BF-3019-4883-83AC-BCAF03797537}

@@ -23,12 +23,12 @@ namespace PersonDictionaryModel.Core.Application.Services
             await File.WriteAllBytesAsync($"{rootPath}/{fileName}.{fileType}", cotnent);
         }
 
-        public async Task<byte[]> GetBytesAsync(IFormFile formFile)
+        public async Task<MemoryStream> GetStreamAsync(IFormFile formFile)
         {
             using (var memoryStream = new MemoryStream())
             {
                 await formFile.CopyToAsync(memoryStream);
-                return memoryStream.ToArray();
+                return new MemoryStream(memoryStream.ToArray());
             }
         }
     }

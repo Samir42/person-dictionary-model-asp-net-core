@@ -8,6 +8,7 @@ using PersonDictionaryModel.Core.Application.Utils;
 using PersonDictionaryModel.Core.Domain.Models;
 using PersonDictionaryModel.Core.Model.Models;
 using PersonDictionaryModel.Core.Model.Resourcearameters;
+using PersonDictionaryModel.FirebaseStorage.Service;
 using PersonDictionaryModel.Web.Filters;
 using System;
 using System.IO;
@@ -60,26 +61,23 @@ namespace PersonDictionaryModel.Web.Controllers
         #region POST
         [HttpPost]
         [ServiceFilter(typeof(ValidatePersonModelAttribute))]
-        public async Task<IActionResult> CreatePerson([FromBody] CreatePersonDto createPersonDto)
+        public async Task<IActionResult> CreatePerson([FromForm] CreatePersonDto createPersonDto)
         {
-            string fileName = null;
-            string extension = null;
+            string targetUrl = null;
 
             if (!(createPersonDto.Photo is null))
             {
-                var filePath = _env.ContentRootPath;
-                var content = await _fileService.GetBytesAsync(createPersonDto.Photo);
+                var stream = await _fileService.GetStreamAsync(createPersonDto.Photo);
 
-                fileName = Guid.NewGuid().ToString();
-                extension = Path.GetExtension(createPersonDto.Photo.FileName);
+                var fileName = Guid.NewGuid().ToString();
+                var extension = Path.GetExtension(createPersonDto.Photo.FileName);
 
-                await _fileService.SaveFileAsync(content, filePath, fileName, extension);
+                targetUrl = await StorageService.Run(stream, fileName + extension);
             }
 
             var personToAdd = _mapper.Map<Person>(createPersonDto);
 
-            personToAdd.Photo = fileName;
-            personToAdd.Extension = extension;
+            personToAdd.TargetUrl = targetUrl;
 
             var addedPerson = await _personRepo.AddAsync(personToAdd);
 
@@ -95,7 +93,23 @@ namespace PersonDictionaryModel.Web.Controllers
         public async Task<IActionResult> UpdatePerson([FromBody] UpdatePersonDto updatePersonDto)
         {
             _memoryCache.Remove($"{PERSON_CACHE_KEY}:{updatePersonDto.Id}");
+
+            string targetUrl = null;
+
+            if (!(updatePersonDto.Photo is null))
+            {
+                var stream = await _fileService.GetStreamAsync(updatePersonDto.Photo);
+
+                var fileName = Guid.NewGuid().ToString();
+                var extension = Path.GetExtension(updatePersonDto.Photo.FileName);
+
+                targetUrl = await StorageService.Run(stream, fileName + extension);
+            }
+
             var personToUpdate = _mapper.Map<Person>(updatePersonDto);
+
+            personToUpdate.TargetUrl = targetUrl;
+
             var updatedPerson = await _personRepo.UpdateAsync(personToUpdate);
 
             _memoryCache.Set($"{PERSON_CACHE_KEY}:{updatePersonDto.Id}", updatedPerson);

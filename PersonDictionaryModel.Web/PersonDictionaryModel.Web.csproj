@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PersonDictionaryModel.Application\PersonDictionaryModel.Core.Application.csproj" />
     <ProjectReference Include="..\PersonDictionaryModel.Core.Bootstrap\PersonDictionaryModel.Core.Bootstrap.csproj" />
+    <ProjectReference Include="..\PersonDictionaryModel.FirebaseStorage\PersonDictionaryModel.FirebaseStorage.csproj" />
     <ProjectReference Include="..\PersonDictionaryModel.Persistence\PersonDictionaryModel.Persistence.csproj" />
   </ItemGroup>
 

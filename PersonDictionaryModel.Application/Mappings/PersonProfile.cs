@@ -11,7 +11,7 @@ namespace PersonDictionaryModel.Core.Application.Mappings
             CreateMap<Person, CreatePersonDto>().ReverseMap();
             CreateMap<Person, UpdatePersonDto>().ReverseMap();
             CreateMap<Person, PersonDto>()
-                .ForMember(x=> x.PhotoName, opt => opt.MapFrom(x=> x.Photo))
+                .ForMember(x=> x.TargetUrl, opt => opt.MapFrom(x=> x.TargetUrl))
                 .ReverseMap();
         }
     }

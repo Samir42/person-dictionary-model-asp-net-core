@@ -17,9 +17,7 @@ namespace PersonDictionaryModel.Core.Model.Models
 
         public string PersonalNumber { get; set; }
 
-        public string PhotoName { get; set; }
-
-        public string Extension { get; set; }
+        public string TargetUrl { get; set; }
 
         public DateTime BirthDate { get; set; }
 

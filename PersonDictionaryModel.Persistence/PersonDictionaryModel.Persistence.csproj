@@ -18,4 +18,8 @@
     <ProjectReference Include="..\PersonDictionaryModel.SharedKernel\PersonDictionaryModel.Core.SharedKernel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
