@@ -102,7 +102,7 @@ namespace PersonDictionaryModel.Core.Infrastructure.Person
 
             var namePattern = resourceParameter?.FirstName is null ? String.Empty : $"%{resourceParameter.FirstName}%";
             var lastNamePattern = resourceParameter?.LastName is null ? String.Empty : $"%{resourceParameter.LastName}%";
-            var personalPhoneNumber = resourceParameter?.PersonalNumber is null ? String.Empty : $"%{resourceParameter.PersonalNumber}%";
+            var personalPhoneNumberPattern = resourceParameter?.PersonalNumber is null ? String.Empty : $"%{resourceParameter.PersonalNumber}%";
 
             if (!string.IsNullOrEmpty(namePattern))
                 pagedQuery = pagedQuery.Where(x => EF.Functions.Like(x.FirstName, namePattern));
@@ -110,8 +110,8 @@ namespace PersonDictionaryModel.Core.Infrastructure.Person
             if (!string.IsNullOrEmpty(lastNamePattern))
                 pagedQuery = pagedQuery.Where(x => EF.Functions.Like(x.LastName, lastNamePattern));
 
-            if (!string.IsNullOrEmpty(personalPhoneNumber))
-                pagedQuery = pagedQuery.Where(x => EF.Functions.Like(x.PersonalNumber, personalPhoneNumber));
+            if (!string.IsNullOrEmpty(personalPhoneNumberPattern))
+                pagedQuery = pagedQuery.Where(x => EF.Functions.Like(x.PersonalNumber, personalPhoneNumberPattern));
 
             var peopleCount = await _dbContext.People.CountAsync();
 
