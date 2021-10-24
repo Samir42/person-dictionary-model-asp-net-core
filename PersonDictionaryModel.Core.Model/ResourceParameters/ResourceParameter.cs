@@ -2,9 +2,9 @@
 {
     public sealed class ResourceParameter
     {
-        public int Skip { get; set; }
+        public int PageNumber { get; set; } = 1;
 
-        public int Take { get; set; }
+        public int PageSize { get; set; } = 10;
 
         public string FirstName { get; set; }
 
