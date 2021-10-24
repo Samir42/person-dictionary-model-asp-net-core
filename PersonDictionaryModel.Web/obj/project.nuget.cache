@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TkCIn4xQTO8NnQMZpbx2r78/M/bGjpb0ixHPnjQEAbZ4iCG0qV/iqFoCOMoE68pW+jKguopa/wKfNmEmeAuchw==",
+  "dgSpecHash": "/VvGhut9n+GiaGHNI+ivF8JaYcUMm/dIjY725LBud5hAE4AgDB5S/JUDeOg6h1VPGRNIH/IZPLvvL1NU2dz5/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\msi-\\Source\\Repos\\person-dictionary-module-aspnet-core\\PersonDictionaryModel.Web\\PersonDictionaryModel.Web.csproj",
   "expectedPackageFiles": [
@@ -163,7 +163,8 @@
     "C:\\Users\\msi-\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\msi-\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\msi-\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\msi-\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\msi-\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\msi-\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
   ],
   "logs": []
 }

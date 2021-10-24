@@ -2,9 +2,9 @@
 {
     public class CredentialConstants
     {
-        public const string API_KEY = "AIzaSyAIpqF2HtEw9UXbnkwN029VpVRSBlAaWqI";
-        public const string BUCKET = "person-dictionary-module.appspot.com";
-        public const string AUTH_EMAIL = "jamallinahid@gmail.com";
-        public const string AUTH_PASSWORD = "0KingDev1!";
+        public const string API_KEY = "{your_api_key}";
+        public const string BUCKET = "{your_bucket}";
+        public const string AUTH_EMAIL = "{your_auth_email_here}";
+        public const string AUTH_PASSWORD = "{password_here}";
     }
 }
