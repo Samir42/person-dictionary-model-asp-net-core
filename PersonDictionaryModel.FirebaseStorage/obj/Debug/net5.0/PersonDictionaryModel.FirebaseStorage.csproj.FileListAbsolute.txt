@@ -1,0 +1,12 @@
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.AssemblyInfoInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.AssemblyInfo.cs
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.csproj.CoreCompileInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\bin\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.deps.json
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\bin\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\bin\Debug\net5.0\ref\PersonDictionaryModel.FirebaseStorage.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\bin\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\ref\PersonDictionaryModel.FirebaseStorage.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.FirebaseStorage\obj\Debug\net5.0\PersonDictionaryModel.FirebaseStorage.csproj.AssemblyReference.cache

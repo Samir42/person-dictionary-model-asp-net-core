@@ -1,0 +1,13 @@
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\bin\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.deps.json
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\bin\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\bin\Debug\net5.0\ref\PersonDictionaryModel.Core.SharedKernel.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\bin\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.AssemblyInfo.cs
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\ref\PersonDictionaryModel.Core.SharedKernel.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.SharedKernel\obj\Debug\net5.0\PersonDictionaryModel.Core.SharedKernel.csproj.AssemblyReference.cache

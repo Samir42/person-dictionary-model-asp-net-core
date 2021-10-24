@@ -1,0 +1,15 @@
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\PersonDictionaryModel.Core.Model.deps.json
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\PersonDictionaryModel.Core.Model.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\ref\PersonDictionaryModel.Core.Model.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\PersonDictionaryModel.Core.Model.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\PersonDictionaryModel.Core.Domain.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\bin\Debug\net5.0\PersonDictionaryModel.Core.Domain.pdb
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.csproj.AssemblyReference.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.AssemblyInfoInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.AssemblyInfo.cs
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.csproj.CopyComplete
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\ref\PersonDictionaryModel.Core.Model.dll
+C:\Users\msi-\Source\Repos\person-dictionary-module-aspnet-core\PersonDictionaryModel.Core.Model\obj\Debug\net5.0\PersonDictionaryModel.Core.Model.pdb

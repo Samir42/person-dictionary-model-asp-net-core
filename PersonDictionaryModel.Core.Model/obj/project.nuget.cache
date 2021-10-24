@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "f5/HFTfShykUESnviQbfgyFfjBBUFMIk6rRubrbrXi52l11009UC60PRDQfz2GSKKpbdpiv5r4eNvbpnG3PabA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msi-\\Source\\Repos\\person-dictionary-module-aspnet-core\\PersonDictionaryModel.Core.Model\\PersonDictionaryModel.Core.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msi-\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.10\\microsoft.aspnetcore.http.features.5.0.10.nupkg.sha512",
+    "C:\\Users\\msi-\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\msi-\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

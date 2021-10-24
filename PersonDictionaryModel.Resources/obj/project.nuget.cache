@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0o/6uKEdtUxDTf0JU3/p4B7NvEmLBWKjJnM+iA0XWinTkU1CqttfwkHnDrrvdfEEuxY3pwBkjUYEdaWQyoOaag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msi-\\Source\\Repos\\person-dictionary-module-aspnet-core\\PersonDictionaryModel.Resources\\PersonDictionaryModel.Resources.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msi-\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.11\\microsoft.extensions.localization.abstractions.5.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
